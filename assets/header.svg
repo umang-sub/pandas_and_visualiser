@@ -1,0 +1,83 @@
+<svg width="900" height="300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg { fill: #000000; }
+      .rain { font-family: 'Courier New', monospace; fill: #003B00; font-size: 12px; }
+      .rain-mid { font-family: 'Courier New', monospace; fill: #00AA20; font-size: 12px; }
+      .t { font-family: 'Courier New', monospace; }
+      @keyframes r0 { 0%{opacity:0;transform:translateY(-20px)} 10%{opacity:1} 90%{opacity:1} 100%{opacity:0;transform:translateY(300px)} }
+      @keyframes glo { 0%,100%{opacity:1;filter:drop-shadow(0 0 12px #00FF41)} 50%{opacity:.85;filter:drop-shadow(0 0 24px #00FF41)} }
+      @keyframes glo2{ 0%,100%{opacity:1;filter:drop-shadow(0 0 8px #00E5FF)} 50%{opacity:.8;filter:drop-shadow(0 0 18px #00E5FF)} }
+      @keyframes blink{ 0%,100%{opacity:1} 50%{opacity:.3} }
+      @keyframes scanline{ 0%{transform:translateY(-300px)} 100%{transform:translateY(300px)} }
+      @keyframes pulse{ 0%,100%{opacity:.6} 50%{opacity:1} }
+      .c0{animation:r0 2.8s 0.0s linear infinite}
+      .c1{animation:r0 3.1s 0.3s linear infinite}
+      .c2{animation:r0 2.5s 0.6s linear infinite}
+      .c3{animation:r0 3.4s 0.1s linear infinite}
+      .c4{animation:r0 2.9s 0.8s linear infinite}
+      .c5{animation:r0 2.6s 0.4s linear infinite}
+      .c6{animation:r0 3.2s 0.9s linear infinite}
+      .c7{animation:r0 2.7s 0.2s linear infinite}
+      .c8{animation:r0 3.0s 0.7s linear infinite}
+      .c9{animation:r0 2.4s 0.5s linear infinite}
+      .c10{animation:r0 3.3s 1.1s linear infinite}
+      .c11{animation:r0 2.8s 1.3s linear infinite}
+      .title-glow{animation:glo 3s ease-in-out infinite}
+      .sub-glow{animation:glo2 2.5s ease-in-out infinite}
+      .blink{animation:blink 1s step-end infinite}
+      .scan{animation:scanline 4s linear infinite;opacity:.05}
+      .pulse{animation:pulse 2s ease-in-out infinite}
+    </style>
+    <filter id="gf2">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00FF41" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#00FF41" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#00E5FF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="boxGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#003B00" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#001A2E" stop-opacity="0.8"/>
+    </linearGradient>
+  </defs>
+  <rect class="bg" width="900" height="300"/>
+  <g opacity="0.06" stroke="#00FF41" stroke-width="0.5">
+    <line x1="0" y1="50" x2="900" y2="50"/><line x1="0" y1="100" x2="900" y2="100"/>
+    <line x1="0" y1="150" x2="900" y2="150"/><line x1="0" y1="200" x2="900" y2="200"/>
+    <line x1="0" y1="250" x2="900" y2="250"/><line x1="50" y1="0" x2="50" y2="300"/>
+    <line x1="150" y1="0" x2="150" y2="300"/><line x1="250" y1="0" x2="250" y2="300"/>
+    <line x1="350" y1="0" x2="350" y2="300"/><line x1="450" y1="0" x2="450" y2="300"/>
+    <line x1="550" y1="0" x2="550" y2="300"/><line x1="650" y1="0" x2="650" y2="300"/>
+    <line x1="750" y1="0" x2="750" y2="300"/><line x1="850" y1="0" x2="850" y2="300"/>
+  </g>
+  <g class="rain c0"><text x="18" y="10">1</text><text x="18" y="24">0</text><text x="18" y="38">1</text><text x="18" y="52">1</text><text x="18" y="66">0</text><text x="18" y="80">0</text><text x="18" y="94">1</text><text x="18" y="108">0</text></g>
+  <g class="rain-mid c1"><text x="48" y="10">ψ</text><text x="48" y="24">7</text><text x="48" y="38">F</text><text x="48" y="52">2</text><text x="48" y="66">A</text><text x="48" y="80">9</text><text x="48" y="94">D</text><text x="48" y="108">3</text></g>
+  <g class="rain c2"><text x="78" y="10">0</text><text x="78" y="24">1</text><text x="78" y="38">1</text><text x="78" y="52">0</text><text x="78" y="66">1</text><text x="78" y="80">0</text><text x="78" y="94">0</text><text x="78" y="108">1</text></g>
+  <g class="rain-mid c3"><text x="108" y="10">B</text><text x="108" y="24">4</text><text x="108" y="38">C</text><text x="108" y="52">8</text><text x="108" y="66">1</text><text x="108" y="80">F</text><text x="108" y="94">6</text><text x="108" y="108">A</text></g>
+  <g class="rain c4"><text x="138" y="10">1</text><text x="138" y="24">0</text><text x="138" y="38">0</text><text x="138" y="52">1</text><text x="138" y="66">1</text><text x="138" y="80">0</text><text x="138" y="94">1</text><text x="138" y="108">0</text></g>
+  <g class="rain-mid c5"><text x="168" y="10">σ</text><text x="168" y="24">μ</text><text x="168" y="38">π</text><text x="168" y="52">∑</text><text x="168" y="66">∞</text><text x="168" y="80">√</text><text x="168" y="94">∂</text><text x="168" y="108">∇</text></g>
+  <g class="rain c6"><text x="718" y="10">0</text><text x="718" y="24">1</text><text x="718" y="38">0</text><text x="718" y="52">1</text><text x="718" y="66">0</text><text x="718" y="80">1</text><text x="718" y="94">1</text><text x="718" y="108">0</text></g>
+  <g class="rain-mid c7"><text x="748" y="10">E</text><text x="748" y="24">9</text><text x="748" y="38">3</text><text x="748" y="52">D</text><text x="748" y="66">A</text><text x="748" y="80">7</text><text x="748" y="94">F</text><text x="748" y="108">2</text></g>
+  <g class="rain c8"><text x="778" y="10">1</text><text x="778" y="24">1</text><text x="778" y="38">0</text><text x="778" y="52">0</text><text x="778" y="66">1</text><text x="778" y="80">0</text><text x="778" y="94">1</text><text x="778" y="108">1</text></g>
+  <g class="rain-mid c9"><text x="808" y="10">α</text><text x="808" y="24">β</text><text x="808" y="38">γ</text><text x="808" y="52">δ</text><text x="808" y="66">ε</text><text x="808" y="80">ζ</text><text x="808" y="94">η</text><text x="808" y="108">θ</text></g>
+  <g class="rain c10"><text x="838" y="10">0</text><text x="838" y="24">1</text><text x="838" y="38">0</text><text x="838" y="52">1</text><text x="838" y="66">1</text><text x="838" y="80">0</text><text x="838" y="94">0</text><text x="838" y="108">1</text></g>
+  <g class="rain-mid c11"><text x="868" y="10">C</text><text x="868" y="24">5</text><text x="868" y="38">F</text><text x="868" y="52">1</text><text x="868" y="66">8</text><text x="868" y="80">B</text><text x="868" y="94">4</text><text x="868" y="108">E</text></g>
+  <rect class="scan" x="0" y="0" width="900" height="8" fill="#00FF41"/>
+  <rect x="150" y="75" width="600" height="155" rx="8" fill="url(#boxGrad)" stroke="#00FF41" stroke-width="0.8" stroke-opacity="0.5"/>
+  <rect x="151" y="76" width="598" height="153" rx="7" fill="none" stroke="#00E5FF" stroke-width="0.3" stroke-opacity="0.3"/>
+  <g stroke="#00FF41" stroke-width="1.5" fill="none" opacity="0.9">
+    <path d="M155 82 L155 78 L162 78"/><path d="M745 82 L745 78 L738 78"/>
+    <path d="M155 222 L155 226 L162 226"/><path d="M745 222 L745 226 L738 226"/>
+  </g>
+  <rect x="200" y="148" width="500" height="1" fill="url(#lineGrad)" opacity="0.7"/>
+  <text x="450" y="135" text-anchor="middle" class="t title-glow" font-size="46" font-weight="bold" font-family="'Courier New',monospace" fill="#00FF41" filter="url(#gf2)" letter-spacing="4">PANDAS ANALYZER</text>
+  <text x="450" y="178" text-anchor="middle" class="t sub-glow" font-size="15" font-family="'Courier New',monospace" fill="#00E5FF" letter-spacing="3">◈  DATA ANALYSIS  &amp;  VISUALIZATION ENGINE  ◈</text>
+  <text x="450" y="210" text-anchor="middle" class="t pulse" font-size="11" font-family="'Courier New',monospace" fill="#00FF41" opacity="0.8" letter-spacing="2">[ PYTHON · PANDAS · MATPLOTLIB · SEABORN · NUMPY ]</text>
+  <text x="452" y="228" text-anchor="middle" class="t blink" font-size="12" font-family="'Courier New',monospace" fill="#00FF41">█</text>
+  <text x="163" y="73" class="t" font-size="9" font-family="'Courier New',monospace" fill="#00FF41" opacity="0.6">SYS::INIT</text>
+  <text x="680" y="73" class="t" font-size="9" font-family="'Courier New',monospace" fill="#00FF41" opacity="0.6" text-anchor="end">v1.0.0::READY</text>
+</svg>

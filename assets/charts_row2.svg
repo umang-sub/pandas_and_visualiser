@@ -1,0 +1,57 @@
+<svg width="900" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .pb { font-family:'Courier New',monospace; }
+      @keyframes scatterIn { from{opacity:0} to{opacity:0.8} }
+      .dot { animation: scatterIn 1s ease-out forwards; }
+    </style>
+  </defs>
+  <rect width="900" height="200" fill="#050505"/>
+  <!-- SCATTER -->
+  <rect x="10" y="5" width="420" height="190" rx="6" fill="#0A0A0A" stroke="#FFD700" stroke-width="0.8"/>
+  <text x="220" y="22" text-anchor="middle" class="pb" font-size="10" fill="#FFD700" letter-spacing="2">SCATTER PLOT · SalesID vs Sales</text>
+  <line x1="20" y1="30" x2="425" y2="30" stroke="#FFD700" stroke-width="0.4" opacity="0.3"/>
+  <line x1="45" y1="40" x2="45" y2="170" stroke="#FFD700" stroke-width="0.6" opacity="0.5"/>
+  <line x1="45" y1="170" x2="410" y2="170" stroke="#FFD700" stroke-width="0.6" opacity="0.5"/>
+  <circle cx="65" cy="90" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="85" cy="145" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="105" cy="55" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="125" cy="120" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="145" cy="75" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="165" cy="158" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="185" cy="95" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="205" cy="60" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="225" cy="140" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="245" cy="105" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="265" cy="72" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="285" cy="130" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="305" cy="50" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="325" cy="162" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="345" cy="88" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="365" cy="115" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <circle cx="385" cy="68" r="4" fill="#FFD700" opacity="0.8" class="dot"/>
+  <text x="220" y="185" text-anchor="middle" class="pb" font-size="7" fill="#FFD700" opacity="0.5">SalesID →</text>
+  <text x="18" y="105" text-anchor="middle" class="pb" font-size="7" fill="#FFD700" opacity="0.5" transform="rotate(-90,18,105)">Sales ↑</text>
+  <!-- PIE / DONUT -->
+  <rect x="450" y="5" width="440" height="190" rx="6" fill="#0A0A0A" stroke="#FF4500" stroke-width="0.8"/>
+  <text x="670" y="22" text-anchor="middle" class="pb" font-size="10" fill="#FF4500" letter-spacing="2">PIE CHART · SALES BY REGION</text>
+  <line x1="460" y1="30" x2="882" y2="30" stroke="#FF4500" stroke-width="0.4" opacity="0.3"/>
+  <path d="M570,40 A65,65 0 0,1 623,58 L603,75 A35,35 0 0,0 570,70 Z" fill="#00FF41" opacity="0.85"/>
+  <path d="M623,58 A65,65 0 0,1 604,152 L585,132 A35,35 0 0,0 603,75 Z" fill="#00E5FF" opacity="0.85"/>
+  <path d="M604,152 A65,65 0 0,1 519,148 L535,128 A35,35 0 0,0 585,132 Z" fill="#BD00FF" opacity="0.85"/>
+  <path d="M519,148 A65,65 0 0,1 517,60 L535,82 A35,35 0 0,0 535,128 Z" fill="#FFD700" opacity="0.85"/>
+  <path d="M517,60 A65,65 0 0,1 570,40 L570,70 A35,35 0 0,0 535,82 Z" fill="#FF4500" opacity="0.85"/>
+  <circle cx="570" cy="100" r="34" fill="#0A0A0A"/>
+  <text x="570" y="97" text-anchor="middle" class="pb" font-size="9" fill="#FF4500">Sales</text>
+  <text x="570" y="110" text-anchor="middle" class="pb" font-size="8" fill="#FF4500" opacity="0.7">Region</text>
+  <rect x="660" y="50" width="10" height="10" rx="2" fill="#00FF41"/>
+  <text x="675" y="60" class="pb" font-size="9" fill="#00FF41">North (21%)</text>
+  <rect x="660" y="70" width="10" height="10" rx="2" fill="#00E5FF"/>
+  <text x="675" y="80" class="pb" font-size="9" fill="#00E5FF">South (22%)</text>
+  <rect x="660" y="90" width="10" height="10" rx="2" fill="#BD00FF"/>
+  <text x="675" y="100" class="pb" font-size="9" fill="#BD00FF">East  (20%)</text>
+  <rect x="660" y="110" width="10" height="10" rx="2" fill="#FFD700"/>
+  <text x="675" y="120" class="pb" font-size="9" fill="#FFD700">West  (21%)</text>
+  <rect x="660" y="130" width="10" height="10" rx="2" fill="#FF4500"/>
+  <text x="675" y="140" class="pb" font-size="9" fill="#FF4500">Central(18%)</text>
+</svg>

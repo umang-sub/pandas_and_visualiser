@@ -1,0 +1,33 @@
+<svg width="900" height="80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .tb{font-family:'Courier New',monospace;}
+      @keyframes techpulse{0%,100%{opacity:.7}50%{opacity:1}}
+      .tp0{animation:techpulse 2.0s 0.0s ease-in-out infinite}
+      .tp1{animation:techpulse 2.0s 0.3s ease-in-out infinite}
+      .tp2{animation:techpulse 2.0s 0.6s ease-in-out infinite}
+      .tp3{animation:techpulse 2.0s 0.9s ease-in-out infinite}
+      .tp4{animation:techpulse 2.0s 1.2s ease-in-out infinite}
+      .tp5{animation:techpulse 2.0s 1.5s ease-in-out infinite}
+    </style>
+  </defs>
+  <rect width="900" height="80" fill="#050505"/>
+  <rect x="10" y="10" width="130" height="60" rx="6" fill="#0D1A0D" stroke="#00FF41" stroke-width="1" class="tp0"/>
+  <text x="75" y="35" text-anchor="middle" class="tb" font-size="18" fill="#00FF41">🐍</text>
+  <text x="75" y="55" text-anchor="middle" class="tb" font-size="10" fill="#00FF41">Python 3.8+</text>
+  <rect x="158" y="10" width="130" height="60" rx="6" fill="#001020" stroke="#00E5FF" stroke-width="1" class="tp1"/>
+  <text x="223" y="35" text-anchor="middle" class="tb" font-size="18" fill="#00E5FF">🐼</text>
+  <text x="223" y="55" text-anchor="middle" class="tb" font-size="10" fill="#00E5FF">Pandas 2.x</text>
+  <rect x="306" y="10" width="130" height="60" rx="6" fill="#150020" stroke="#BD00FF" stroke-width="1" class="tp2"/>
+  <text x="371" y="35" text-anchor="middle" class="tb" font-size="18" fill="#BD00FF">🔢</text>
+  <text x="371" y="55" text-anchor="middle" class="tb" font-size="10" fill="#BD00FF">NumPy 1.x</text>
+  <rect x="454" y="10" width="130" height="60" rx="6" fill="#1A1200" stroke="#FFD700" stroke-width="1" class="tp3"/>
+  <text x="519" y="35" text-anchor="middle" class="tb" font-size="18" fill="#FFD700">📊</text>
+  <text x="519" y="55" text-anchor="middle" class="tb" font-size="10" fill="#FFD700">Matplotlib 3.x</text>
+  <rect x="602" y="10" width="130" height="60" rx="6" fill="#1A0500" stroke="#FF4500" stroke-width="1" class="tp4"/>
+  <text x="667" y="35" text-anchor="middle" class="tb" font-size="18" fill="#FF4500">🎨</text>
+  <text x="667" y="55" text-anchor="middle" class="tb" font-size="10" fill="#FF4500">Seaborn 0.x</text>
+  <rect x="750" y="10" width="140" height="60" rx="6" fill="#10001A" stroke="#EE82EE" stroke-width="1" class="tp5"/>
+  <text x="820" y="35" text-anchor="middle" class="tb" font-size="18" fill="#EE82EE">📓</text>
+  <text x="820" y="55" text-anchor="middle" class="tb" font-size="10" fill="#EE82EE">Jupyter Notebook</text>
+</svg>

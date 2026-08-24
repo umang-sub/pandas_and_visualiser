@@ -1,0 +1,60 @@
+<svg width="900" height="220" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.fb{font-family:'Courier New',monospace;}</style></defs>
+  <rect width="900" height="220" fill="#050505"/>
+  <rect x="10" y="10" width="200" height="90" rx="6" fill="#0D1A0D" stroke="#00FF41" stroke-width="0.8"/>
+  <text x="30" y="35" class="fb" font-size="20" fill="#00FF41">📂</text>
+  <text x="60" y="35" class="fb" font-size="12" fill="#00FF41" font-weight="bold">DATA LOADING</text>
+  <line x1="14" y1="45" x2="206" y2="45" stroke="#00FF41" stroke-width="0.4" opacity="0.4"/>
+  <text x="20" y="60" class="fb" font-size="9" fill="#00FF41" opacity="0.8">→ CSV file ingestion</text>
+  <text x="20" y="73" class="fb" font-size="9" fill="#00FF41" opacity="0.8">→ Synthetic data generator</text>
+  <text x="20" y="86" class="fb" font-size="9" fill="#00FF41" opacity="0.8">→ Auto path resolution</text>
+  <rect x="222" y="10" width="200" height="90" rx="6" fill="#001020" stroke="#00E5FF" stroke-width="0.8"/>
+  <text x="242" y="35" class="fb" font-size="20" fill="#00E5FF">🔍</text>
+  <text x="272" y="35" class="fb" font-size="12" fill="#00E5FF" font-weight="bold">EXPLORATION</text>
+  <line x1="226" y1="45" x2="418" y2="45" stroke="#00E5FF" stroke-width="0.4" opacity="0.4"/>
+  <text x="232" y="60" class="fb" font-size="9" fill="#00E5FF" opacity="0.8">→ Head / tail preview</text>
+  <text x="232" y="73" class="fb" font-size="9" fill="#00E5FF" opacity="0.8">→ Column schema display</text>
+  <text x="232" y="86" class="fb" font-size="9" fill="#00E5FF" opacity="0.8">→ dtypes &amp; info</text>
+  <rect x="434" y="10" width="200" height="90" rx="6" fill="#150020" stroke="#BD00FF" stroke-width="0.8"/>
+  <text x="454" y="35" class="fb" font-size="20" fill="#BD00FF">⚙</text>
+  <text x="479" y="35" class="fb" font-size="12" fill="#BD00FF" font-weight="bold">MATH OPS</text>
+  <line x1="438" y1="45" x2="630" y2="45" stroke="#BD00FF" stroke-width="0.4" opacity="0.4"/>
+  <text x="444" y="60" class="fb" font-size="9" fill="#BD00FF" opacity="0.8">→ Sum / Mean / Median</text>
+  <text x="444" y="73" class="fb" font-size="9" fill="#BD00FF" opacity="0.8">→ Std / Min / Max</text>
+  <text x="444" y="86" class="fb" font-size="9" fill="#BD00FF" opacity="0.8">→ Aggregate functions</text>
+  <rect x="646" y="10" width="244" height="90" rx="6" fill="#1A1200" stroke="#FFD700" stroke-width="0.8"/>
+  <text x="666" y="35" class="fb" font-size="20" fill="#FFD700">🔗</text>
+  <text x="691" y="35" class="fb" font-size="12" fill="#FFD700" font-weight="bold">COMBINE &amp; SPLIT</text>
+  <line x1="650" y1="45" x2="886" y2="45" stroke="#FFD700" stroke-width="0.4" opacity="0.4"/>
+  <text x="656" y="60" class="fb" font-size="9" fill="#FFD700" opacity="0.8">→ Merge / Concat DataFrames</text>
+  <text x="656" y="73" class="fb" font-size="9" fill="#FFD700" opacity="0.8">→ Split by value / regex</text>
+  <text x="656" y="86" class="fb" font-size="9" fill="#FFD700" opacity="0.8">→ Pivot table creation</text>
+  <rect x="10" y="118" width="200" height="90" rx="6" fill="#1A0500" stroke="#FF4500" stroke-width="0.8"/>
+  <text x="30" y="143" class="fb" font-size="20" fill="#FF4500">🛠</text>
+  <text x="55" y="143" class="fb" font-size="12" fill="#FF4500" font-weight="bold">MISSING DATA</text>
+  <line x1="14" y1="153" x2="206" y2="153" stroke="#FF4500" stroke-width="0.4" opacity="0.4"/>
+  <text x="20" y="168" class="fb" font-size="9" fill="#FF4500" opacity="0.8">→ Detect missing values</text>
+  <text x="20" y="181" class="fb" font-size="9" fill="#FF4500" opacity="0.8">→ Fill / drop / replace</text>
+  <text x="20" y="194" class="fb" font-size="9" fill="#FF4500" opacity="0.8">→ Row-level inspection</text>
+  <rect x="222" y="118" width="200" height="90" rx="6" fill="#0A1A00" stroke="#7FFF00" stroke-width="0.8"/>
+  <text x="242" y="143" class="fb" font-size="20" fill="#7FFF00">📈</text>
+  <text x="267" y="143" class="fb" font-size="12" fill="#7FFF00" font-weight="bold">STATISTICS</text>
+  <line x1="226" y1="153" x2="418" y2="153" stroke="#7FFF00" stroke-width="0.4" opacity="0.4"/>
+  <text x="232" y="168" class="fb" font-size="9" fill="#7FFF00" opacity="0.8">→ Describe / Skewness</text>
+  <text x="232" y="181" class="fb" font-size="9" fill="#7FFF00" opacity="0.8">→ Variance / Percentiles</text>
+  <text x="232" y="194" class="fb" font-size="9" fill="#7FFF00" opacity="0.8">→ Full describe(include=all)</text>
+  <rect x="434" y="118" width="200" height="90" rx="6" fill="#001510" stroke="#00FFAA" stroke-width="0.8"/>
+  <text x="454" y="143" class="fb" font-size="20" fill="#00FFAA">📊</text>
+  <text x="479" y="143" class="fb" font-size="12" fill="#00FFAA" font-weight="bold">MATPLOTLIB</text>
+  <line x1="438" y1="153" x2="630" y2="153" stroke="#00FFAA" stroke-width="0.4" opacity="0.4"/>
+  <text x="444" y="168" class="fb" font-size="9" fill="#00FFAA" opacity="0.8">→ Bar · Line · Scatter</text>
+  <text x="444" y="181" class="fb" font-size="9" fill="#00FFAA" opacity="0.8">→ Pie · Histogram · Stack</text>
+  <text x="444" y="194" class="fb" font-size="9" fill="#00FFAA" opacity="0.8">→ Heatmap · Multi-plot</text>
+  <rect x="646" y="118" width="244" height="90" rx="6" fill="#10001A" stroke="#EE82EE" stroke-width="0.8"/>
+  <text x="666" y="143" class="fb" font-size="20" fill="#EE82EE">🎨</text>
+  <text x="691" y="143" class="fb" font-size="12" fill="#EE82EE" font-weight="bold">SEABORN</text>
+  <line x1="650" y1="153" x2="886" y2="153" stroke="#EE82EE" stroke-width="0.4" opacity="0.4"/>
+  <text x="656" y="168" class="fb" font-size="9" fill="#EE82EE" opacity="0.8">→ Boxplot / Violinplot</text>
+  <text x="656" y="181" class="fb" font-size="9" fill="#EE82EE" opacity="0.8">→ Seaborn Barplot</text>
+  <text x="656" y="194" class="fb" font-size="9" fill="#EE82EE" opacity="0.8">→ Statistical styling options</text>
+</svg>

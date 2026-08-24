@@ -1,0 +1,38 @@
+<svg width="900" height="370" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .cb{font-family:'Courier New',monospace;}
+      @keyframes cursor{0%,100%{opacity:1}50%{opacity:0}}
+      .cur{animation:cursor 1s step-end infinite;}
+    </style>
+  </defs>
+  <rect width="900" height="370" rx="10" fill="#0D0D0D" stroke="#00FF41" stroke-width="1"/>
+  <rect width="900" height="30" rx="10" fill="#1A1A1A"/>
+  <rect y="20" width="900" height="10" fill="#1A1A1A"/>
+  <circle cx="20" cy="15" r="6" fill="#FF4500" opacity="0.9"/>
+  <circle cx="40" cy="15" r="6" fill="#FFD700" opacity="0.9"/>
+  <circle cx="60" cy="15" r="6" fill="#00FF41" opacity="0.9"/>
+  <text x="450" y="20" text-anchor="middle" class="cb" font-size="10" fill="#888">sales_data_analyzer.py — bash</text>
+  <text x="20" y="55" class="cb" font-size="10" fill="#00FF41">========== Data Analytic &amp; Visualization Program ==========</text>
+  <text x="20" y="70" class="cb" font-size="10" fill="#00E5FF">Please select an option:</text>
+  <text x="20" y="85" class="cb" font-size="10" fill="#888">1. Load Dataset</text>
+  <text x="20" y="99" class="cb" font-size="10" fill="#888">2. Explore Data</text>
+  <text x="20" y="113" class="cb" font-size="10" fill="#888">3. Perform DataFrame Operations</text>
+  <text x="20" y="127" class="cb" font-size="10" fill="#888">4. Handle Missing Data</text>
+  <text x="20" y="141" class="cb" font-size="10" fill="#888">5. Generate Descriptive Statistics</text>
+  <text x="20" y="155" class="cb" font-size="10" fill="#888">6. Data Visualization</text>
+  <text x="20" y="169" class="cb" font-size="10" fill="#888">7. Save Visualization</text>
+  <text x="20" y="183" class="cb" font-size="10" fill="#888">8. Exit</text>
+  <text x="20" y="197" class="cb" font-size="10" fill="#00FF41">===========================================================</text>
+  <text x="20" y="215" class="cb" font-size="10" fill="#00E5FF">Enter your choice: <tspan fill="#00FF41">1</tspan></text>
+  <text x="20" y="231" class="cb" font-size="10" fill="#888">-- Load Dataset --</text>
+  <text x="20" y="247" class="cb" font-size="10" fill="#00E5FF">Enter path [default: data/sales_data.csv]: <tspan fill="#00FF41">data/sales_data.csv</tspan></text>
+  <text x="20" y="263" class="cb" font-size="10" fill="#00FFAA">Dataset loaded successfully!</text>
+  <line x1="10" y1="275" x2="890" y2="275" stroke="#00FF41" stroke-width="0.4" stroke-dasharray="4,4" opacity="0.3"/>
+  <text x="20" y="292" class="cb" font-size="10" fill="#00E5FF">Enter your choice: <tspan fill="#00FF41">2</tspan></text>
+  <text x="20" y="308" class="cb" font-size="10" fill="#888">-- Explore Data --  →  <tspan fill="#00FF41">1. Display the first 5 rows</tspan></text>
+  <text x="20" y="325" class="cb" font-size="10" fill="#555">   SalesID    Product   Region  Sales  Year</text>
+  <text x="20" y="339" class="cb" font-size="10" fill="#00FFAA">0        1  Product D    South    755  2021</text>
+  <text x="20" y="353" class="cb" font-size="10" fill="#00FFAA">1        2  Product E     East    534  2023</text>
+  <text x="20" y="368" class="cb" font-size="10" fill="#00FF41">$ <tspan class="cur">█</tspan></text>
+</svg>

@@ -1,0 +1,39 @@
+<svg width="900" height="90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .m-lbl { font-family:'Courier New',monospace; font-size:9px; letter-spacing:1px; }
+      .m-val { font-family:'Courier New',monospace; font-size:22px; font-weight:bold; }
+      .m-sub { font-family:'Courier New',monospace; font-size:8px; letter-spacing:2px; }
+      @keyframes barpulse { 0%,100%{opacity:.7} 50%{opacity:1} }
+      .bar-anim { animation: barpulse 2s ease-in-out infinite; }
+      @keyframes fadein { from{opacity:0} to{opacity:1} }
+      .appear { animation: fadein 1.2s ease-in forwards; }
+    </style>
+  </defs>
+  <rect width="900" height="90" fill="#0A0A0A"/>
+  <rect x="10" y="8" width="160" height="74" rx="6" fill="#0D1A0D" stroke="#00FF41" stroke-width="0.8"/>
+  <text x="90" y="26" text-anchor="middle" class="m-lbl" fill="#00FF41" opacity="0.7">DATASET ROWS</text>
+  <text x="90" y="56" text-anchor="middle" class="m-val appear" fill="#00FF41">200</text>
+  <text x="90" y="72" text-anchor="middle" class="m-sub" fill="#00FF41" opacity="0.5">SYNTHETIC RECORDS</text>
+  <rect x="14" y="78" width="152" height="2" rx="1" fill="#00FF41" opacity="0.3" class="bar-anim"/>
+  <rect x="183" y="8" width="160" height="74" rx="6" fill="#001020" stroke="#00E5FF" stroke-width="0.8"/>
+  <text x="263" y="26" text-anchor="middle" class="m-lbl" fill="#00E5FF" opacity="0.7">FEATURES</text>
+  <text x="263" y="56" text-anchor="middle" class="m-val appear" fill="#00E5FF">5</text>
+  <text x="263" y="72" text-anchor="middle" class="m-sub" fill="#00E5FF" opacity="0.5">COLUMNS · CSV FORMAT</text>
+  <rect x="187" y="78" width="152" height="2" rx="1" fill="#00E5FF" opacity="0.3" class="bar-anim"/>
+  <rect x="356" y="8" width="160" height="74" rx="6" fill="#150020" stroke="#BD00FF" stroke-width="0.8"/>
+  <text x="436" y="26" text-anchor="middle" class="m-lbl" fill="#BD00FF" opacity="0.7">CHART TYPES</text>
+  <text x="436" y="56" text-anchor="middle" class="m-val appear" fill="#BD00FF">10+</text>
+  <text x="436" y="72" text-anchor="middle" class="m-sub" fill="#BD00FF" opacity="0.5">MATPLOTLIB · SEABORN</text>
+  <rect x="360" y="78" width="152" height="2" rx="1" fill="#BD00FF" opacity="0.3" class="bar-anim"/>
+  <rect x="529" y="8" width="160" height="74" rx="6" fill="#1A1200" stroke="#FFD700" stroke-width="0.8"/>
+  <text x="609" y="26" text-anchor="middle" class="m-lbl" fill="#FFD700" opacity="0.7">MENU OPTIONS</text>
+  <text x="609" y="56" text-anchor="middle" class="m-val appear" fill="#FFD700">8</text>
+  <text x="609" y="72" text-anchor="middle" class="m-sub" fill="#FFD700" opacity="0.5">INTERACTIVE INTERFACE</text>
+  <rect x="533" y="78" width="152" height="2" rx="1" fill="#FFD700" opacity="0.3" class="bar-anim"/>
+  <rect x="702" y="8" width="190" height="74" rx="6" fill="#1A0500" stroke="#FF4500" stroke-width="0.8"/>
+  <text x="797" y="26" text-anchor="middle" class="m-lbl" fill="#FF4500" opacity="0.7">OOP METHODS</text>
+  <text x="797" y="56" text-anchor="middle" class="m-val appear" fill="#FF4500">18+</text>
+  <text x="797" y="72" text-anchor="middle" class="m-sub" fill="#FF4500" opacity="0.5">ENCAPSULATED CLASS</text>
+  <rect x="706" y="78" width="182" height="2" rx="1" fill="#FF4500" opacity="0.3" class="bar-anim"/>
+</svg>

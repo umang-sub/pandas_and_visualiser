@@ -1,0 +1,52 @@
+<svg width="900" height="380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.ab{font-family:'Courier New',monospace;}</style>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#00E5FF" opacity="0.8"/>
+    </marker>
+    <marker id="arrow2" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0,10 3.5,0 7" fill="#00FF41" opacity="0.8"/>
+    </marker>
+  </defs>
+  <rect width="900" height="380" fill="#050505"/>
+  <rect x="270" y="10" width="360" height="340" rx="8" fill="#0A0A0A" stroke="#00E5FF" stroke-width="1.5"/>
+  <rect x="270" y="10" width="360" height="40" rx="8" fill="#001020" stroke="#00E5FF" stroke-width="1.5"/>
+  <rect x="270" y="40" width="360" height="10" fill="#001020"/>
+  <text x="450" y="35" text-anchor="middle" class="ab" font-size="14" fill="#00E5FF" font-weight="bold" letter-spacing="2">SalesDataFrame</text>
+  <line x1="270" y1="58" x2="630" y2="58" stroke="#00E5FF" stroke-width="0.8" opacity="0.6"/>
+  <text x="280" y="73" class="ab" font-size="9" fill="#00E5FF" opacity="0.5">— ATTRIBUTES —</text>
+  <text x="285" y="88" class="ab" font-size="10" fill="#00FFAA">◆ self.data : DataFrame | None</text>
+  <line x1="270" y1="98" x2="630" y2="98" stroke="#00E5FF" stroke-width="0.8" opacity="0.4"/>
+  <text x="280" y="112" class="ab" font-size="9" fill="#00E5FF" opacity="0.5">— METHODS —</text>
+  <text x="285" y="127" class="ab" font-size="9.5" fill="#00FF41">+ __init__(self)</text>
+  <text x="285" y="141" class="ab" font-size="9.5" fill="#00FF41">+ __del__(self)</text>
+  <line x1="280" y1="148" x2="620" y2="148" stroke="#00E5FF" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.3"/>
+  <text x="285" y="162" class="ab" font-size="9.5" fill="#00FFAA">+ load(filepath: str)</text>
+  <text x="285" y="176" class="ab" font-size="9.5" fill="#00FFAA">+ explore(option: int)</text>
+  <text x="285" y="190" class="ab" font-size="9.5" fill="#00FFAA">+ mathematical(col: str)</text>
+  <text x="285" y="204" class="ab" font-size="9.5" fill="#00FFAA">+ handle_missing(...)</text>
+  <text x="285" y="218" class="ab" font-size="9.5" fill="#00FFAA">+ descriptive_statistics()</text>
+  <line x1="280" y1="225" x2="620" y2="225" stroke="#00E5FF" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.3"/>
+  <text x="285" y="239" class="ab" font-size="9.5" fill="#BD00FF">+ combine(other, how, on)</text>
+  <text x="285" y="253" class="ab" font-size="9.5" fill="#BD00FF">+ split(col, value, regex)</text>
+  <text x="285" y="267" class="ab" font-size="9.5" fill="#BD00FF">+ search_sort(col, value, ...)</text>
+  <text x="285" y="281" class="ab" font-size="9.5" fill="#BD00FF">+ filter(col, condition, value)</text>
+  <text x="285" y="295" class="ab" font-size="9.5" fill="#BD00FF">+ aggregate(col, func)</text>
+  <text x="285" y="309" class="ab" font-size="9.5" fill="#BD00FF">+ create_pivot(index, col, val)</text>
+  <line x1="280" y1="316" x2="620" y2="316" stroke="#00E5FF" stroke-width="0.3" stroke-dasharray="4,4" opacity="0.3"/>
+  <text x="285" y="330" class="ab" font-size="9.5" fill="#FFD700">+ visualize_*(...)  · save_visualization(path)</text>
+  <rect x="10" y="60" width="220" height="80" rx="5" fill="#0A0A0A" stroke="#00FF41" stroke-width="0.8"/>
+  <text x="120" y="78" text-anchor="middle" class="ab" font-size="9" fill="#00FF41" opacity="0.7">ENCAPSULATION</text>
+  <text x="20" y="95" class="ab" font-size="8.5" fill="#00FF41">→ self.data hidden inside class</text>
+  <text x="20" y="108" class="ab" font-size="8.5" fill="#00FF41">→ All access via methods</text>
+  <text x="20" y="121" class="ab" font-size="8.5" fill="#00FF41">→ No direct attribute exposure</text>
+  <line x1="230" y1="100" x2="270" y2="100" stroke="#00FF41" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow2)" opacity="0.8"/>
+  <rect x="660" y="60" width="230" height="80" rx="5" fill="#0A0A0A" stroke="#BD00FF" stroke-width="0.8"/>
+  <text x="775" y="78" text-anchor="middle" class="ab" font-size="9" fill="#BD00FF" opacity="0.7">OOP PRINCIPLES</text>
+  <text x="670" y="95" class="ab" font-size="8.5" fill="#BD00FF">→ Constructor / Destructor</text>
+  <text x="670" y="108" class="ab" font-size="8.5" fill="#BD00FF">→ Method overloading pattern</text>
+  <text x="670" y="121" class="ab" font-size="8.5" fill="#BD00FF">→ Operator override (__del__)</text>
+  <line x1="630" y1="100" x2="660" y2="100" stroke="#BD00FF" stroke-width="1" stroke-dasharray="4,3" marker-end="url(#arrow)" opacity="0.8"/>
+  <rect x="160" y="360" width="580" height="15" rx="4" fill="#0A0A0A" stroke="#FFD700" stroke-width="0.6"/>
+  <text x="450" y="372" text-anchor="middle" class="ab" font-size="8" fill="#FFD700" opacity="0.8">visualize_bar · visualize_line · visualize_scatter · visualize_pie · visualize_histogram · visualize_heatmap · visualize_stack · visualize_boxplot · visualize_violin · multiple_plots</text>
+</svg>

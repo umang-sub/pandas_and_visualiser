@@ -1,0 +1,24 @@
+<svg width="900" height="100" xmlns="http://www.w3.org/2000/svg">
+  <defs><style>.ob{font-family:'Courier New',monospace;}</style></defs>
+  <rect width="900" height="100" fill="#050505"/>
+  <rect x="10" y="10" width="205" height="80" rx="6" fill="#0D1A0D" stroke="#00FF41" stroke-width="0.8"/>
+  <text x="112" y="32" text-anchor="middle" class="ob" font-size="10" fill="#00FF41" font-weight="bold">ENCAPSULATION</text>
+  <text x="20" y="52" class="ob" font-size="8.5" fill="#00FF41" opacity="0.8">→ Data wrapped in SalesDataFrame</text>
+  <text x="20" y="65" class="ob" font-size="8.5" fill="#00FF41" opacity="0.8">→ State managed via self.data</text>
+  <text x="20" y="78" class="ob" font-size="8.5" fill="#00FF41" opacity="0.8">→ Controlled access via methods</text>
+  <rect x="228" y="10" width="205" height="80" rx="6" fill="#001020" stroke="#00E5FF" stroke-width="0.8"/>
+  <text x="330" y="32" text-anchor="middle" class="ob" font-size="10" fill="#00E5FF" font-weight="bold">ABSTRACTION</text>
+  <text x="238" y="52" class="ob" font-size="8.5" fill="#00E5FF" opacity="0.8">→ Complex ops hidden behind methods</text>
+  <text x="238" y="65" class="ob" font-size="8.5" fill="#00E5FF" opacity="0.8">→ User calls .visualize_bar() simply</text>
+  <text x="238" y="78" class="ob" font-size="8.5" fill="#00E5FF" opacity="0.8">→ Internals not exposed to caller</text>
+  <rect x="446" y="10" width="205" height="80" rx="6" fill="#150020" stroke="#BD00FF" stroke-width="0.8"/>
+  <text x="548" y="32" text-anchor="middle" class="ob" font-size="10" fill="#BD00FF" font-weight="bold">CONSTRUCTOR / DESTRUCTOR</text>
+  <text x="456" y="52" class="ob" font-size="8.5" fill="#BD00FF" opacity="0.8">→ __init__ sets self.data = None</text>
+  <text x="456" y="65" class="ob" font-size="8.5" fill="#BD00FF" opacity="0.8">→ __del__ releases data from memory</text>
+  <text x="456" y="78" class="ob" font-size="8.5" fill="#BD00FF" opacity="0.8">→ Object lifecycle fully managed</text>
+  <rect x="664" y="10" width="226" height="80" rx="6" fill="#1A1200" stroke="#FFD700" stroke-width="0.8"/>
+  <text x="777" y="32" text-anchor="middle" class="ob" font-size="10" fill="#FFD700" font-weight="bold">REUSABILITY</text>
+  <text x="674" y="52" class="ob" font-size="8.5" fill="#FFD700" opacity="0.8">→ Instantiate multiple SalesDataFrame</text>
+  <text x="674" y="65" class="ob" font-size="8.5" fill="#FFD700" opacity="0.8">→ combine() merges two instances</text>
+  <text x="674" y="78" class="ob" font-size="8.5" fill="#FFD700" opacity="0.8">→ Works on any valid CSV dataset</text>
+</svg>
